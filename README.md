@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magicians
 
-## Available Scripts
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-In the project directory, you can run:
+- Make simple calculations.
+- Read a random math-related quote.
 
-### `yarn start`
+### 👷🏻 Built using
+    - React
+    - JavaScript
+    - VSCode
+    - GIT
+    - Github
+    - CSS
+    - Bootstrap
+    - Linters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!--
+### 🌐 Live view
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> [Sweet World - To make the world sweeter](https://capstone-rails-kenny.herokuapp.com/)
+-->
+## 🚩 Getting Started
 
-### `yarn test`
+To get a local copy up and running follow these simple example steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✅ Prerequisites
 
-### `yarn build`
+* Make sure that **Node JS** is installed in your computer (try to run _npm -v_ from your prompt), if not you can install it from [here.](https://nodejs.org/en/download/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Download](https://github.com/kensayo/math-magicians/archive/refs/heads/dev.zip) and unzip **or** [clone this repository](https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### 👨🏻‍🔧 Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Open your terminal and move to the root of the project, using ```cd``` command.
+- First run ```$ npm init```
+- You must run ```$npm start```
+- Then your browser will open a local copy
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔌 Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- You can go to http://127.0.0.1:3000/ to use the app locally
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!--
+### 🛠️ Tests
 
-## Learn More
+- You need to migrate the test database with the following command ```rails db:migrate RAILS_ENV=test```
+- Then just run ```bundle exec rspec``` in the prompt
+-->
+## 👨🏻‍💻 Kenny Ortega
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [kensayo](https://github.com/kensayo)
+- Twitter: [@kensayo](https://twitter.com/kensayo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kennyortega/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### 🤝🏻 Contributions and issues are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is [MIT](./MIT.md) licensed.
