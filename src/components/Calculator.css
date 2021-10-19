@@ -1,0 +1,29 @@
+.container {    
+    display: grid;
+    grid-template: 
+            "res res res res" 60px
+            "ac sym per div" 60px
+            "7 8 9 mul" 60px
+            "4 5 6 min" 60px
+            "1 2 3 plus" 60px
+            "zero zero dot eq" 60px / 70px 70px 70px 70px;
+    row-gap: 2px;       
+    column-gap: 2px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.result {
+    grid-area: res;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.zero {
+    grid-area: zero;
+}
