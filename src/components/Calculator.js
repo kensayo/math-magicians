@@ -16,15 +16,21 @@ class Calculator extends React.Component {
   call(event) {
     this.data = calculate(this.data, event.target.value);
 
-    if (this.data.operation) {
-      document.getElementById('operator').innerHTML = this.data.operation;
-    } else {
+    if (event.target.value === 'AC') {
+      document.getElementById('result').innerHTML = '0';
       document.getElementById('operator').innerHTML = '';
-    }
-    if (this.data.next) {
-      document.getElementById('result').innerHTML = this.data.next;
     } else {
-      document.getElementById('result').innerHTML = this.data.total;
+      if (this.data.operation) {
+        document.getElementById('operator').innerHTML = this.data.operation;
+      } else {
+        document.getElementById('operator').innerHTML = '';
+      }
+
+      if (this.data.next) {
+        document.getElementById('result').innerHTML = this.data.next;
+      } else {
+        document.getElementById('result').innerHTML = this.data.total;
+      }
     }
   }
 
