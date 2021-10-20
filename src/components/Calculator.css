@@ -21,6 +21,7 @@ h1 {
 .result {
   grid-area: res;
   display: flex;
+  flex-direction: column;
   align-items: end;
   justify-content: end;
   padding: 0 20px 10px 0;
@@ -46,7 +47,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 .item:hover {
@@ -56,4 +56,12 @@ h1 {
 
 .item:active {
   background-color: darkgreen;
+}
+
+button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
