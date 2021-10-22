@@ -2,7 +2,7 @@ import './Calculator.css';
 import { useState, React } from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const [data, setObj] = useState({ total: '0', next: null, operation: null });
   const { total, next, operation } = data;
 
@@ -40,6 +40,6 @@ function Calculator() {
       <div className="item operator"><button type="button" value="=" onClick={() => update('=')}>=</button></div>
     </div>
   );
-}
+};
 
 export default Calculator;
