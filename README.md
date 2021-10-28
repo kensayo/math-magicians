@@ -18,6 +18,10 @@
 ![image](./screenshots/quote.png)
 > Quote
 
+## 🌐 Live preview
+
+[Math Magicians](https://kensayo.github.io/math-magicians/)
+
 ### 👷🏻 Built using
     - React
     - JavaScript
