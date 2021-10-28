@@ -5,9 +5,6 @@ function Quote() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState('');
 
-  // Note: the empty deps array [] means
-  // this useEffect will run once
-  // similar to componentDidMount()
   useEffect(() => {
     fetch('https://api.quotable.io/random?minLength=150')
       .then((res) => res.json())
@@ -19,7 +16,6 @@ function Quote() {
         (error) => {
           setIsLoaded(true);
           setError(error);
-          console.log(items);
         },
       );
   }, []);

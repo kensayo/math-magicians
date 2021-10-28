@@ -16,11 +16,11 @@ class App extends React.Component {
         <Router>
           <nav className="navbar navbar-expand navbar-light bg-light">
             <div className="container-fluid">
-              <NavLink className="nav-link link-dark fw-bold fs-4" to="/">Math Magicians</NavLink>
+              <NavLink className="nav-link link-dark fw-bold fs-4" to="/home">Math Magicians</NavLink>
               <div className="navbar-collapse">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 pe-5">
                   <li className="nav-item px-3">
-                    <NavLink activeClassName="fw-bold active" className="nav-link" exact to="/">Home</NavLink>
+                    <NavLink activeClassName="fw-bold active" className="nav-link" exact to="/home">Home</NavLink>
                   </li>
                   <li className="nav-item px-3">
                     <span className="nav-link">|</span>
@@ -39,7 +39,7 @@ class App extends React.Component {
             </div>
           </nav>
           <Switch>
-            <Route path="/">
+            <Route path="/home">
               <Home />
             </Route>
             <Route path="/calculator">
