@@ -8,6 +8,7 @@ const Calculator = () => {
 
   const update = (input) => {
     setObj(calculate(data, input));
+    console.log(data);
   };
 
   return (
