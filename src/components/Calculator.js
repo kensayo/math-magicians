@@ -18,7 +18,7 @@ const Calculator = () => {
       <div className="d-flex justify-content-center w-50">
         <div className="calculator mt-5">
           <div className="result">
-            <span id="result">
+            <span data-testid="result" id="result">
               {total}
               {operation}
               {next}
