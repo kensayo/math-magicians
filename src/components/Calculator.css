@@ -1,0 +1,66 @@
+.calculator {
+  display: grid;
+  font-weight: bold;
+  grid-template:
+    "res res res res" 60px
+    "ac sym per div" 60px
+    "7 8 9 mul" 60px
+    "4 5 6 min" 60px
+    "1 2 3 plus" 60px
+    "zero zero dot eq" 60px / 90px 90px 90px 90px;
+  text-align: center;
+  width: fit-content;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.result {
+  grid-area: res;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  padding: 0 20px 10px 0;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+
+.operator {
+  background-color: orange;
+}
+
+.operator:hover {
+  background-color: lightsalmon !important;
+  color: white !important;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.item {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:hover {
+  color: white;
+  background-color: darkgray;
+}
+
+.item:active {
+  background-color: darkgreen;
+}
+
+button {
+  border: none;
+  background: none;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
