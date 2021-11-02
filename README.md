@@ -20,9 +20,9 @@
 
 ## 🌐 Live preview
 
-[Math Magicians - GitHub Pages](https://kensayo.github.io/math-magicians/home)
-[Math Magicians - Heroku](https://math-magicians-kensayo.herokuapp.com/home)
-[Math Magicians - Netlify](https://math-magicians-kensayo.netlify.app/home)
+- [Math Magicians - GitHub Pages](https://kensayo.github.io/math-magicians/home)
+- [Math Magicians - Heroku](https://math-magicians-kensayo.herokuapp.com/home)
+- [Math Magicians - Netlify](https://math-magicians-kensayo.netlify.app/home)
 
 ### 👷🏻 Built using
     - React
